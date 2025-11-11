@@ -5,9 +5,9 @@
 - **Ingenieria en sistemas computacionales
 - **Desarrollo de APIs 
 - **LABORATORIO APIS - EVALUACIÓN
-- **Alejandra Rodríguez de la Cruz
- - **Docente:** Xenia Padilla Madrid
-- **11 Noviembre 2025
+- ** Alejandra Rodríguez de la Cruz
+- **Docente:** Xenia Padilla Madrid
+- **Fecha:** 11 Noviembre 2025
 
 ## 📋 Descripción
 API REST para gestión de citas médicas con persistencia en JSON. Permite registrar pacientes, doctores y agendar citas con validaciones completas.
@@ -15,15 +15,20 @@ API REST para gestión de citas médicas con persistencia en JSON. Permite regis
 ## 🚀 Instalación Rápida
 
 ```bash
-# 1. Instalar dependencias
+# 1. Clonar el repositorio
+git clone [https://github.com/AleRodriguezCruz/LABORATORIO-APIS---EVALUACI-N.git](https://github.com/AleRodriguezCruz/LABORATORIO-APIS---EVALUACI-N.git)
+
+# 2. Entrar al directorio
+cd LABORATORIO-APIS---EVALUACI-N
+
+# 3. Instalar dependencias
 npm install
 
-# 2. Ejecutar servidor
+# 4. Ejecutar servidor
 npm run dev
 
-# 3. Probar (en otra terminal)
+# 5. Probar (en otra terminal)
 curl http://localhost:3000/
-
 
 ## 📚 Endpoints Principales
 
@@ -116,4 +121,5 @@ C:\Users\alejandrarodriguez\Downloads\gestion-citas-medicas>curl http://localhos
 {"success":true,"data":{"especialidad":"Oncología","totalCitas":2}}
 
 curl http://localhost:3000/estadisticas/doctores
+
 curl http://localhost:3000/estadisticas/especialidades
