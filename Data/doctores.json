@@ -1,0 +1,34 @@
+[
+  {
+    "id": "D001",
+    "nombre": "Dr. Carlos Méndez",
+    "especialidad": "Cardiología",
+    "horarioInicio": "09:00",
+    "horarioFin": "17:00",
+    "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+  },
+  {
+    "id": "D002",
+    "nombre": "Dr. Gregory House", 
+    "especialidad": "Medicina Diagnóstica",
+    "horarioInicio": "10:00",
+    "horarioFin": "18:00",
+    "diasDisponibles": ["Lunes", "Miércoles", "Viernes"]
+  },
+  {
+    "id": "D003",
+    "nombre": "Dr. James Wilson",
+    "especialidad": "Oncología", 
+    "horarioInicio": "09:00",
+    "horarioFin": "17:00",
+    "diasDisponibles": ["Lunes", "Martes", "Jueves", "Viernes"]
+  },
+  {
+    "id": "D004",
+    "nombre": "Dra. Allison Cameron",
+    "especialidad": "Inmunología",
+    "horarioInicio": "08:30",
+    "horarioFin": "16:30", 
+    "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves"]
+  }
+]

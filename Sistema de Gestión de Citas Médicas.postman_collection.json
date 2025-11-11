@@ -1,0 +1,404 @@
+{
+	"info": {
+		"_postman_id": "b1e9ff83-4da0-436e-887e-0086b2ca53e1",
+		"name": "Sistema de Gestión de Citas Médicas",
+		"description": "StartFragment Pruebas de la API de gestión de citasEndFragment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49960384",
+		"_collection_link": "https://al22760049-2837719.postman.co/workspace/4621fab7-f62f-4783-8b7b-2b86538c763e/collection/49960384-b1e9ff83-4da0-436e-887e-0086b2ca53e1?action=share&source=collection_link&creator=49960384"
+	},
+	"item": [
+		{
+			"name": "Crear Paciente 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Juan Pérez\",\r\n  \"edad\": 35,\r\n  \"telefono\": \"646-0101\",\r\n  \"email\": \"juan.perez@test.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pacientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pacientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Paciente 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Maria García\",\r\n  \"edad\": 42,\r\n  \"telefono\": \"646-0102\",\r\n  \"email\": \"maria.garcia@test.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pacientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pacientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Paciente 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Luis Herrrera\",\r\n  \"edad\": 22,\r\n  \"telefono\": \"646-0103\",\r\n  \"email\": \"luis.herrera@test.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pacientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pacientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Doctor- Dr. Foreman",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Dr. Eric Foreman\",\r\n  \"especialidad\": \"Neurología\",\r\n  \"horarioInicio\": \"09:00\",\r\n  \"horarioFin\": \"17:00\",\r\n  \"diasDisponibles\": [\"Lunes\", \"Martes\", \"Miércoles\", \"Jueves\", \"Viernes\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/doctores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"doctores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Doctor - Dra. Cuddy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Dra. Lisa Cuddy\",\r\n  \"especialidad\": \"Endocrinología\",\r\n  \"horarioInicio\": \"08:00\",\r\n  \"horarioFin\": \"16:00\",\r\n  \"diasDisponibles\": [\"Lunes\", \"Martes\", \"Miércoles\", \"Jueves\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/doctores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"doctores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cita 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pacienteId\": \"P001\",\r\n  \"doctorId\": \"D001\",\r\n  \"fecha\": \"2025-11-15\",\r\n  \"hora\": \"15:00\",\r\n  \"motivo\": \"Revisión Cardiológica Anual\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cita 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pacienteId\": \"P001\",\r\n  \"doctorId\": \"D001\",\r\n  \"fecha\": \"2025-11-22\",\r\n  \"hora\": \"15:00\",\r\n  \"motivo\": \"Revisión Cardiológica Anual\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cita 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pacienteId\": \"P002\",\r\n  \"doctorId\": \"D003\",\r\n  \"fecha\": \"2025-11-11\",\r\n  \"hora\": \"09:30\",\r\n  \"motivo\": \"Resultados de biopsia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST FALLO - Cita Duplicada",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pacienteId\": \"P001\",\r\n  \"doctorId\": \"D004\",\r\n  \"fecha\": \"2025-11-12\",\r\n  \"hora\": \"13:00\",\r\n  \"motivo\": \"Pruebas de alergia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cita 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pacienteId\": \"P002\",\r\n  \"doctorId\": \"D001\",\r\n  \"fecha\": \"2025-11-13\",\r\n  \"hora\": \"16:00\",\r\n  \"motivo\": \"Monitoreo de presión\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST FALLO - Dr. House en Martes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pacienteId\": \"P001\",\r\n  \"doctorId\": \"D002\",\r\n  \"fecha\": \"2025-11-11\",\r\n  \"hora\": \"14:00\",\r\n  \"motivo\": \"Dolor misterioso (no es lupus)\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/citas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Cancelar Cita (C004)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/citas/C004/cancelar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citas",
+						"C004",
+						"cancelar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Historial de Ana López (P001)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pacientes/P001/historial",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pacientes",
+						"P001",
+						"historial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Buscar Doctor (Oncología)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/doctores/especialidad/Oncología",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"doctores",
+						"especialidad",
+						"Oncología"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Buscar Doctor (Cardiología)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/doctores/especialidad/Cardiología",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"doctores",
+						"especialidad",
+						"Cardiología"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

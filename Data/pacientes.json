@@ -1,0 +1,74 @@
+[
+  {
+    "id": "P001",
+    "nombre": "Ana López",
+    "edad": 28,
+    "telefono": "555-1001",
+    "email": "ana.lopez@email.com",
+    "fechaRegistro": "2024-03-20"
+  },
+  {
+    "id": "P002",
+    "nombre": "Carlos Ruiz",
+    "edad": 45,
+    "telefono": "555-1002",
+    "email": "carlos.ruiz@email.com",
+    "fechaRegistro": "2024-03-20"
+  },
+  {
+    "id": "P003",
+    "nombre": "Juan Sebastian",
+    "edad": 25,
+    "telefono": "646-TEST",
+    "email": "al22760045@ite.edu.com",
+    "fechaRegistro": "2025-11-10"
+  },
+  {
+    "id": "P004",
+    "nombre": "Alejandra Postman",
+    "edad": 28,
+    "telefono": "555-TEST",
+    "email": "ale.postman@ite.edu.com",
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": "P005",
+    "nombre": "Alejandra rodriguez",
+    "edad": 28,
+    "telefono": "646240",
+    "email": "ale.rodriguez@ite.edu.com",
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": "P006",
+    "nombre": "flor Cisneros",
+    "edad": 31,
+    "telefono": "646284511",
+    "email": "flor.cisneros@ite.edu.com",
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": "P007",
+    "nombre": "Juan Pérez",
+    "edad": 35,
+    "telefono": "555-0101",
+    "email": "juan.perez@test.com",
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": "P008",
+    "nombre": "Maria García",
+    "edad": 42,
+    "telefono": "646-0102",
+    "email": "maria.garcia@test.com",
+    "fechaRegistro": "2025-11-11"
+  },
+  {
+    "id": "P009",
+    "nombre": "Luis Herrrera",
+    "edad": 22,
+    "telefono": "646-0103",
+    "email": "luis.herrera@test.com",
+    "fechaRegistro": "2025-11-11"
+  }
+]
