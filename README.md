@@ -3,7 +3,7 @@
 ## 🎓 Información del Proyecto
 - **Instituto Tecnológico de Ensenada
 - **Ingenieria en sistemas computacionales
-- **Desarrollo de APIs 
+- **Desarrollo de WEB 
 - **LABORATORIO APIS - EVALUACIÓN
 - ** Alejandra Rodríguez de la Cruz
 - **Docente:** Xenia Padilla Madrid
@@ -123,3 +123,4 @@ C:\Users\alejandrarodriguez\Downloads\gestion-citas-medicas>curl http://localhos
 curl http://localhost:3000/estadisticas/doctores
 
 curl http://localhost:3000/estadisticas/especialidades
+
